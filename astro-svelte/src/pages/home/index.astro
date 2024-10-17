@@ -1,15 +1,8 @@
 ---
-    import Menu from '../../components/menu.svelte'; // You can import .svelte components like this
-    import MainLayout from '../layouts/MainLayout.astro';
+    import MainLayout from '../../layouts/MainLayout.astro';
+    import Menu from '../../components/menu.svelte';
 ---
-<html lang="en">
-  <head>
-    <title>Home Page</title>
-    <link rel="stylesheet" href="/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-  </head>
-  <body>
+<MainLayout>
     <section>
         <article>
             <img src="/progress.svg" alt="Progress bar">
@@ -83,5 +76,4 @@
         align-items: center;
     }
     </style>
-  </body>
-</html>
+</MainLayout>
