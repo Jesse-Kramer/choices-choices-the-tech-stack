@@ -1,0 +1,18 @@
+{
+  "name": "astro-directus",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@directus/sdk": "^17.0.2",
+    "astro": "^4.16.6",
+    "typescript": "^5.6.3"
+  }
+}

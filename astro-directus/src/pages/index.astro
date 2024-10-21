@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import directus from "../lib/directus";
+import { readItems } from "@directus/sdk";
+
+const accounts = await directus.request(
+  readItems("tm24_account", {
+    fields: [
+      "name",
+      "email",
+      "password",
+    ]})
+);
+---
+
+<Layout>
+  <main>
+	<h1>Data</h1>
+		<ul>
+		{
+			accounts.map((account) => (
+			<li>
+				<h2>{account.name}</h2>
+				<p>{account.email}</p>
+				<p>{account.password}</p>
+			</li>
+			))
+		}
+		</ul>
+  </main>
+</Layout>
