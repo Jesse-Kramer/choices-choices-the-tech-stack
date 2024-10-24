@@ -1,4 +1,4 @@
-import { createDirectus, rest, } from '@directus/sdk';
+import { createDirectus, rest } from '@directus/sdk';
 
 type Account = {
   name: string;
@@ -7,7 +7,7 @@ type Account = {
 }
 
 type Schema = {
-  account: Account[];
+  tm24_account: Account[]; 
 }
 
 const directus = createDirectus<Schema>('https://fdnd-agency.directus.app').with(rest());
