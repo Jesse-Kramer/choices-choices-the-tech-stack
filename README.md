@@ -13,6 +13,8 @@
 
 In dit project bouw ik een website met behulp van het Astro framework. Het doel was om de website van een eerdere sprint opnieuw te implementeren met een andere tech-stack. Astro maakt het gemakkelijk om verschillende UI-frameworks zoals React, Svelte en Vue te integreren. Bekijk de live versie van de site via [Vercel](https://choices-choices-the-tech-stack-hazel.vercel.app/).
 
+Meer informatie is te vinden in [justify-your-tech-stack](https://github.com/Jesse-Kramer/justify-your-tech-stack/wiki)
+
 ## Kenmerken
 
 - **HTML**: Opgebouwd met semantische HTML-elementen voor betere toegankelijkheid.
