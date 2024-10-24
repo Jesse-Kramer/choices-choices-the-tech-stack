@@ -1,9 +1,4 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](https://github.com/fdnd-task/choices-choices-the-tech-stack/blob/main/docs/INSTRUCTIONS.md)
-
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Astro
 
 ## Inhoudsopgave
 
@@ -15,18 +10,36 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](https://github.com/fdnd-task/ch
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+In dit project bouw ik een website met behulp van het Astro framework. Het doel was om de website van een eerdere sprint opnieuw te implementeren met een andere tech-stack. Astro maakt het gemakkelijk om verschillende UI-frameworks zoals React, Svelte en Vue te integreren. Bekijk de live versie van de site via [Vercel](https://choices-choices-the-tech-stack-hazel.vercel.app/).
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+- **HTML**: Opgebouwd met semantische HTML-elementen voor betere toegankelijkheid.
+- **CSS**: Stijlen zijn modulair opgezet om herbruikbaarheid te bevorderen.
+- **JavaScript**: Interactiviteit toegevoegd via native JavaScript en de integratie van Astro met React, Svelte en Vue.
+- **Frameworks**: Gebruik van Astro voor statische site generatie en integratie met verschillende UI-frameworks.
+- **Astro**: Biedt een snelle en efficiënte manier om met moderne webtechnieken te werken.
 
 ## Installatie
 
+1. Clone de repository: `git clone <repository-url>`
+2. Navigeer naar de projectmap: `cd projectmap`
+3. Installeer de benodigde dependencies: `npm install`
+4. Start de ontwikkelserver: `npm run dev`
+
 ## Gebruik
 
+1. Open de server in je browser: `http://localhost:3000`
+2. Pas de code aan in de `src` map om wijzigingen door te voeren.
+3. Gebruik `npm run build` om een productieversie te genereren.
+
 ## Bronnen
+
+- [Astro Documentatie](https://docs.astro.build/)
+- [React](https://reactjs.org/)
+- [Svelte](https://svelte.dev/)
+- [Vue](https://vuejs.org/)
 
 ## Licentie
 
